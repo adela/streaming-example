@@ -39,6 +39,10 @@ Step2: Start a streaming job that listens to a specific Kafka topic for String l
 The class contains some placeholders for the Kafka brokers and the Kafka topic. You must use a Kafka topic already
 created and one or more Kafka Brokers
 
+## PositionsProducer
+
+Located in the test folder, the PositionsProducer class can be used to test the streaming job. It generated coordinates
+around the existing New York positions and sends them to the Kafka topic defined in the Config class.
 
 ### Note
 
