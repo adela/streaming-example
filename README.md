@@ -36,11 +36,9 @@ Step2: Start a streaming job that listens to a specific Kafka topic for String l
  data folder. Each position is mapped to an existing cluster as part as this job.
 
 ## Config
-The class contains some placeholders for the Kafka brokers and the Kafka topic. You must have a topic already created
-and one or more Kafka Brokers
+The class contains some placeholders for the Kafka brokers and the Kafka topic. You must use a Kafka topic already
+created and one or more Kafka Brokers
 
-val BrokersList = "<YourBrokerListsHere>" //host:port,host:port
-val Topic = "<YourTopicHere>"
 
 ### Note
 
